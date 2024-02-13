@@ -36,6 +36,8 @@ body {
 
 ol, 
 ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -473,6 +475,27 @@ a {
 .activites .card-title {
     margin-bottom: 0;
 }
+
+/****** Footer ***********/
+
+footer {
+    background: var(--grey-light);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-column {
+    padding: 2rem;
+}
+
+footer h3,
+footer li:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+}
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
